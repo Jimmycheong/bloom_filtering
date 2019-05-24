@@ -1,7 +1,24 @@
 ## Python Implementation 
 
-A basic implementation.
+- Implementation of Bloom filter in Python. 
 
-NOTES:
+
+## Setup
+
+```
+
+# Installing dependencies
+virtualenv env
+source env/bin/activate
+pip install -r requirements.txt
+
+
+# How to run tests
+python3 -m pytest tests
+
+```
+
+
+TODO:
 - Remember to strong type all functions and variables.
 - Still need to add the READ request to bloom filter.
