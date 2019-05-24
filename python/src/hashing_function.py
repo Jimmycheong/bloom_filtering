@@ -7,7 +7,6 @@ import abc
 
 class HashingFunction():
 
-	@abc.abstractmethod
 	def __init__(self):
 		pass
 	@abc.abstractmethod
