@@ -33,3 +33,7 @@ def test__insert_new_data():
 
 	assert bloom_filter.bit_vector == [0,0,0,0,1]
 	assert db_repository.show_data() == {data_key: data_value}
+
+# TODO:  
+def test__read_with_key():
+	pass
