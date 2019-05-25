@@ -10,7 +10,7 @@ Objectives of this project:
 - Design different data stores and iterate through using the bloom filter, much like how LSM-Tables use bloom filters for fast access to SSTables.
 
 
-### In Lehmann's terms, what is a Bloom filters? 
+### In Layman's terms, what is a Bloom filters? 
 
 - Bloom Filters are a data structure which can act as an medium to some storage of information to find out whether a piece of information exists. It uses probability. This are particular useful for quickly retreiving data from databases. 
 
@@ -48,4 +48,5 @@ Objectives of this project:
 1. https://llimllib.github.io/bloomfilter-tutorial/ 
 2. https://www.youtube.com/watch?v=x2sLjRK56YU 
 3. https://en.wikipedia.org/wiki/Bloom_filter
-4. http://hadoopmag.com/cassandra-internal-storage/ 
+4. http://hadoopmag.com/cassandra-internal-storage/
+5. https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/ 

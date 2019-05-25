@@ -1,11 +1,12 @@
-'''test_hash_function.py
+'''
+Tests for hashing functions.
 
 '''
 
 import pytest
 from src.hashing_function import BasicHashingFunction, Basic2HashingFunction
 
-def test_hash_key():
+def test_basic_hashing_function_hash_key():
 	'''
 	Should take the modulus of the key and return a value
 	'''

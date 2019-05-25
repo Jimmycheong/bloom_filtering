@@ -1,4 +1,4 @@
-## Python Implementation 
+# Python implementation
 
 - Implementation of Bloom filter in Python. 
 
@@ -22,3 +22,4 @@ python3 -m pytest tests
 TODO:
 - Remember to strong type all functions and variables.
 - Still need to add the READ request to bloom filter.
+- Create a sequence of Tuples of DBs with their corresponding bloom filter.
